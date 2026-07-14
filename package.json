@@ -1,0 +1,14 @@
+{
+  "name": "quickblog",
+  "private": true,
+  "version": "1.0.0",
+  "description": "QuickBlog - deploy entrypoint for Render",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "postinstall": "npm install --prefix server",
+    "start": "npm --prefix server start",
+    "server": "npm --prefix server run server"
+  }
+}

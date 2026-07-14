@@ -2,7 +2,7 @@ services:
   - type: web
     name: quickblog-api
     runtime: node
-    rootDir: server
+    plan: free
     buildCommand: npm install
     startCommand: npm start
     envVars:
